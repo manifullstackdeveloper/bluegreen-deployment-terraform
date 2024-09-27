@@ -1,5 +1,5 @@
 data "aws_route53_zone" "terraform-blue-green" {
-  name = "saikatechnology.com"
+  name = "yourdomain.com"
 }
 
 resource "aws_route53_record" "terraform-blue-green" {
